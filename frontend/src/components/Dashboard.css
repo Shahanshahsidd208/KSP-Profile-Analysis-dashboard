@@ -1,0 +1,27 @@
+.notification-slider {
+    transition: all 0.5s ease;
+}
+
+.search-result {
+    transition: all 0.5s ease;
+}
+
+.notification-slider.closed {
+    transform: translateY(-100%);
+    opacity: 0;
+}
+
+.search-result.closed {
+    transform: translateY(100%);
+    opacity: 0;
+}
+
+.notification-slider.open {
+    transform: translateY(0%);
+    opacity: 1;
+}
+
+.search-result.open {
+    transform: translateY(0%);
+    opacity: 1;
+}
