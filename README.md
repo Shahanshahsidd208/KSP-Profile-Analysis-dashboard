@@ -1,18 +1,90 @@
-# run below cmd inside \KSP Dasboard final> to install all pakages
-"npm i"
+# <span style="font-size: 150%;">Police Perfromance Analysis and Data and Resource Management</span>
 
-# run below cmd inside \KSP Dasboard final\frontend> to install all pakages
-"npm i"
-
-
-# run below cmd inside \KSP Dasboard final> to start server
-"npm run dev"
-
-# run below cmd inside \KSP Dasboard final\frontend> to start frontend
-"npm run dev"
+Our approach involves developing a user-friendly dashboard accessible through two login options: one for individual police officers to analyze their own performance, while allowing superior officers to assess the performance of any officer. Additionally, the performance of PIs is contingent upon the performance of PSIs under them. Similarly, the performance DySPs depends on the performance of various PIs under them. This maintains the hierarchical structure of the police system.
+- When any police officer logs into the profile analysis system, they can view their performance analysis through various graphical and statistical representations. They can also download their report and opt for real-time notifications via mobile number or email from their dashboard. Additionally, they can search for details of any FIR. The dashboard will also include a performance evaluation system showing the cumulative score of the logged-in police officer along with feedback ranging from outstanding to poor.
+- Another login option is provided for the designated officer responsible for managing data and resources, such as adding new FIR data, updating existing FIR data, updating user information, and managing resource allocation for each police station.
 
 
-## sample for dashboard access:-
-username:ravinaiklambani494@gmail.com
-password:ravinaiklambani494
+
+## <span style="font-size: 120%;">Architecture Design</span>
+
+![image](https://github.com/Shahanshahsidd208/KSP-Profile-Analysis-dashboard/assets/105127757/1054c47f-4ae3-4530-b34d-d01f9b22b259)
+
+## <span style="font-size: 120%;">What You Need to Run This Code</span>
+
+### Frontend:
+- axios: ^1.6.8
+- chart.js: ^4.4.2
+- dom-to-image: ^2.6.0
+- file-saver: ^2.0.5
+- html2canvas: ^1.4.1
+- react: ^18.2.0
+- react-chartjs-2: ^5.2.0
+- react-dom: ^18.2.0
+- react-router-dom: ^6.22.3
+- react-toastify: ^10.0.5
+- recharts: ^2.12.2
+
+### Backend:
+- bcryptjs: ^2.4.3
+- cors: ^2.8.5
+- dotenv: ^16.3.1
+- express: ^4.18.2
+- express-async-errors: ^3.1.1
+- jsonwebtoken: ^9.0.2
+- mongoose: ^8.0.3
+
+## <span style="font-size: 120%;">How to Run This Code</span>
+
+- Make sure MongoDB is running on your system
+- Clone this repository
+
+### To Run Frontend:
+
+- **Run the following command inside `\KSP Dasboard final\frontend>` to install all packages and to start frontend:**
+  ```bash
+  npm install
+  npm run dev
+
+### To Run Server:
+
+- **Run the following command inside `\KSP Dasboard final>` to install all packages and to start server:**
+  ```bash
+  npm install
+  npm run dev
+  
+## <span style="font-size: 120%;">Sample for Dashboard Access</span>
+
+1. **Username:** ravinaiklambani494@gmail.com
+   **Password:** ravinaiklambani494
+
+2. **Username:** manjannat1364@gmail.com
+   **Password:** manjannat1364
+
+
+## <span style="font-size: 120%;">Snapshots of Home Page</span>
+
+![image](https://github.com/Shahanshahsidd208/KSP-Profile-Analysis-dashboard/assets/105127757/81063b03-4757-42d3-91d3-8e2ba8cba9e6)
+![image](https://github.com/Shahanshahsidd208/KSP-Profile-Analysis-dashboard/assets/105127757/25953fc8-58d0-4f9d-afee-9066c48ccb80)
+
+
+## <span style="font-size: 120%;">Personalized dashboard</span> 
+
+![image](https://github.com/Shahanshahsidd208/KSP-Profile-Analysis-dashboard/assets/105127757/00cf4d86-4b57-4505-bf29-03992596bc96)
+![image](https://github.com/Shahanshahsidd208/KSP-Profile-Analysis-dashboard/assets/105127757/9038b8ff-6cb4-4678-a7df-e3af6e1938b1)
+
+## <span style="font-size: 120%;">Search Bar and notification button demo</span> 
+![image](https://github.com/Shahanshahsidd208/KSP-Profile-Analysis-dashboard/assets/105127757/c3c006a3-cdb1-463f-9e90-72cde0342088)
+
+
+## <span style="font-size: 120%;">Language toggling</span> 
+
+![image](https://github.com/Shahanshahsidd208/KSP-Profile-Analysis-dashboard/assets/105127757/0201ac60-af25-4033-a61d-979dc86900e8)
+
+## <span style="font-size: 120%;">User can add new data or update existing data</span> 
+
+![image](https://github.com/Shahanshahsidd208/KSP-Profile-Analysis-dashboard/assets/105127757/68bea228-4256-4faf-961c-cba9b9b35741)
+
+## <span style="font-size: 120%;">That's all peeps</span> 
+
 
