@@ -85,6 +85,9 @@ Our approach involves developing a user-friendly dashboard accessible through tw
 
 ![image](https://github.com/Shahanshahsidd208/KSP-Profile-Analysis-dashboard/assets/105127757/68bea228-4256-4faf-961c-cba9b9b35741)
 
+## <span style="font-size: 120%;">Watch demo video here:</span>
+https://youtu.be/2r89xyq0okE?si=hHKANuyF2MAVvJCW
+
 ## <span style="font-size: 120%;">That's all peeps</span> 
 
 
