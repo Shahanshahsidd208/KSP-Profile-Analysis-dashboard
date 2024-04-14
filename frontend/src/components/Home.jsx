@@ -153,7 +153,7 @@ export default function Home({ language }) {
     let email = e.target.email.value;
     let password = e.target.password.value;
 
-    if (email.length > 0 && password.length > 0) {
+    if (email.length > 0 && password.length > 0 && loginType === 'profile') {
       const formData = {
         email,
         password,
@@ -173,6 +173,15 @@ export default function Home({ language }) {
     } else {
       toast.error("Please fill all inputs");
     }
+    if (
+      username === 'ravinaiklambani494@gmail.com' &&
+      password === 'ravinaiklambani494' &&
+      loginType === 'data' &&
+      selectedYear !== ''
+  ) {
+      // Redirect to data management page with selected year
+      window.location.href = `/data?year=${selectedYear}`;
+  } 
   };
 
   const toggleHelp = () => {

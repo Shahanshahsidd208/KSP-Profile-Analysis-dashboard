@@ -367,8 +367,8 @@ function CombinedForm() {
           <button
             className={`w-1/2 py-4 focus:outline-none text-base sm:text-lg font-semibold transition-colors duration-300 ${
               formType === "add"
-                ? "bg-orange-100 text-red-900"
-                : "bg-gray-300 text-gray-700"
+                ? "bg-red-900 text-orange-100"
+                : "bg-gray-300 text-gray-800"
             }`}
             onClick={() => handleFormTypeChange("add")}
           >
@@ -377,8 +377,8 @@ function CombinedForm() {
           <button
             className={`w-1/2 py-4 focus:outline-none text-base sm:text-lg font-semibold transition-colors duration-300 ${
               formType === "update"
-                ? "bg-orange-100 text-red-900"
-                : "bg-gray-300 text-gray-700"
+                ? "bg-red-900 text-orange-100"
+                : "bg-gray-300 text-gray-800"
             }`}
             onClick={() => handleFormTypeChange("update")}
           >
@@ -387,15 +387,15 @@ function CombinedForm() {
         </div>
 
         {formType === "add" ? (
-          <div className="bg-white p-4 sm:p-8">
-            <h2 className="text-red-900 text-xl sm:text-2xl mb-6 text-center">
+          <div className="bg-orange-200 p-4 sm:p-8">
+            <h2 className="text-red-950 text-xl sm:text-2xl mb-6 text-center">
               Add New Data
             </h2>
 
             <div className="grid grid-cols-2 gap-4">
               {/* District Name */}
               <div className="mb-4">
-                <label className="text-gray-700 text-sm sm:text-l mb-2">
+                <label className="text-red-900  font-bold text-sm  sm:text-l mb-2">
                   District Name:
                 </label>
                 <input
@@ -412,7 +412,7 @@ function CombinedForm() {
 
               {/* Unit Name */}
               <div className="mb-4">
-                <label className="text-gray-700 text-sm sm:text-l mb-2">
+                <label className="text-red-900  font-bold text-sm sm:text-l mb-2">
                   Unit Name:
                 </label>
                 <input
@@ -429,7 +429,7 @@ function CombinedForm() {
 
               {/* FIR Number */}
               <div className="mb-4">
-                <label className="text-gray-700 text-sm sm:text-l mb-2">
+                <label className="text-red-900  font-bold text-sm sm:text-l mb-2">
                   FIR Number:
                 </label>
                 <input
@@ -446,7 +446,7 @@ function CombinedForm() {
 
               {/* RI */}
               <div className="mb-4">
-                <label className="text-gray-700 text-sm sm:text-l mb-2">
+                <label className="text-red-900  font-bold text-sm sm:text-l mb-2">
                   RI:
                 </label>
                 <input
@@ -463,7 +463,7 @@ function CombinedForm() {
 
               {/* Year */}
               <div className="mb-4">
-                <label className="text-gray-700 text-sm sm:text-l mb-2">
+                <label className="text-red-900  font-bold text-sm sm:text-l mb-2">
                   Year:
                 </label>
                 <input
@@ -480,7 +480,7 @@ function CombinedForm() {
 
               {/* Month */}
               <div className="mb-4">
-                <label className="text-gray-700 text-sm sm:text-l mb-2">
+                <label className="text-red-900  font-bold text-sm sm:text-l mb-2">
                   Month:
                 </label>
                 <select
@@ -509,7 +509,7 @@ function CombinedForm() {
 
               {/* Offence From Date */}
               <div className="mb-4">
-                <label className="text-gray-700 text-sm sm:text-l mb-2">
+                <label className="text-red-900  font-bold text-sm sm:text-l mb-2">
                   Offence From Date:
                 </label>
                 <input
@@ -529,7 +529,7 @@ function CombinedForm() {
 
               {/* Offence To Date */}
               <div className="mb-4">
-                <label className="text-gray-700 text-sm sm:text-l mb-2">
+                <label className="text-red-900  font-bold text-sm sm:text-l mb-2">
                   Offence To Date:
                 </label>
                 <input
@@ -549,7 +549,7 @@ function CombinedForm() {
 
               {/* FIR Reg Date Time */}
               <div className="mb-4">
-                <label className="text-gray-700 text-sm sm:text-l mb-2">
+                <label className="text-red-900  font-bold text-sm sm:text-l mb-2">
                   FIR Reg Date Time:
                 </label>
                 <input
@@ -569,7 +569,7 @@ function CombinedForm() {
 
               {/* FIR Date */}
               <div className="mb-4">
-                <label className="text-gray-700 text-sm sm:text-l mb-2">
+                <label className="text-red-900  font-bold text-sm sm:text-l mb-2">
                   FIR Date:
                 </label>
                 <input
@@ -588,7 +588,7 @@ function CombinedForm() {
 
               {/* FIR Type */}
               <div className="mb-4">
-                <label className="text-gray-700 text-sm sm:text-l mb-2">
+                <label className="text-red-900  font-bold text-sm sm:text-l mb-2">
                   FIR Type:
                 </label>
                 <input
@@ -605,7 +605,7 @@ function CombinedForm() {
 
               {/* Complaint Mode */}
               <div className="mb-4">
-                <label className="text-gray-700 text-sm sm:text-l mb-2">
+                <label className="text-red-900  font-bold text-sm sm:text-l mb-2">
                   Complaint Mode:
                 </label>
                 <input
@@ -625,7 +625,7 @@ function CombinedForm() {
 
               {/* CrimeGroup Name */}
               <div className="mb-4">
-                <label className="text-gray-700 text-sm sm:text-l mb-2">
+                <label className="text-red-900  font-bold text-sm sm:text-l mb-2">
                   CrimeGroup Name:
                 </label>
                 <input
@@ -645,7 +645,7 @@ function CombinedForm() {
 
               {/* CrimeHead Name */}
               <div className="mb-4">
-                <label className="text-gray-700 text-sm sm:text-l mb-2">
+                <label className="text-red-900  font-bold text-sm sm:text-l mb-2">
                   CrimeHead Name:
                 </label>
                 <input
@@ -665,7 +665,7 @@ function CombinedForm() {
 
               {/* Latitude */}
               <div className="mb-4">
-                <label className="text-gray-700 text-sm sm:text-l mb-2">
+                <label className="text-red-900  font-bold text-sm sm:text-l mb-2">
                   Latitude:
                 </label>
                 <input
@@ -682,7 +682,7 @@ function CombinedForm() {
 
               {/* Longitude */}
               <div className="mb-4">
-                <label className="text-gray-700 text-sm sm:text-l mb-2">
+                <label className="text-red-900  font-bold text-sm sm:text-l mb-2">
                   Longitude:
                 </label>
                 <input
@@ -699,7 +699,7 @@ function CombinedForm() {
 
               {/* actSection */}
               <div className="mb-4">
-                <label className="text-gray-700 text-sm sm:text-l mb-2">
+                <label className="text-red-900  font-bold text-sm sm:text-l mb-2">
                   Act Section:
                 </label>
                 <input
@@ -716,7 +716,7 @@ function CombinedForm() {
 
               {/* ioName */}
               <div className="mb-4">
-                <label className="text-gray-700 text-sm sm:text-l mb-2">
+                <label className="text-red-900  font-bold text-sm sm:text-l mb-2">
                   IO Name:
                 </label>
                 <input
@@ -733,7 +733,7 @@ function CombinedForm() {
 
               {/* designation */}
               <div className="mb-4">
-                <label className="text-gray-700 text-sm sm:text-l mb-2">
+                <label className="text-red-900  font-bold text-sm sm:text-l mb-2">
                   Designation:
                 </label>
                 <input
@@ -750,7 +750,7 @@ function CombinedForm() {
 
               {/* kgId */}
               <div className="mb-4">
-                <label className="text-gray-700 text-sm sm:text-l mb-2">
+                <label className="text-red-900  font-bold text-sm sm:text-l mb-2">
                   KGID:
                 </label>
                 <input
@@ -767,7 +767,7 @@ function CombinedForm() {
 
               {/* Internal IO */}
               <div className="mb-4">
-                <label className="text-gray-700 text-sm sm:text-l mb-2">
+                <label className="text-red-900  font-bold text-sm sm:text-l mb-2">
                   Internal IO:
                 </label>
                 <input
@@ -784,7 +784,7 @@ function CombinedForm() {
 
               {/* Place of Offence */}
               <div className="mb-4">
-                <label className="text-gray-700 text-sm sm:text-l mb-2">
+                <label className="text-red-900  font-bold text-sm sm:text-l mb-2">
                   Place of Offence:
                 </label>
                 <input
@@ -804,7 +804,7 @@ function CombinedForm() {
 
               {/* Distance from PS */}
               <div className="mb-4">
-                <label className="text-gray-700 text-sm sm:text-l mb-2">
+                <label className="text-red-900  font-bold text-sm sm:text-l mb-2">
                   Distance from PS:
                 </label>
                 <input
@@ -824,7 +824,7 @@ function CombinedForm() {
 
               {/* Beat Name */}
               <div className="mb-4">
-                <label className="text-gray-700 text-sm sm:text-l mb-2">
+                <label className="text-red-900  font-bold text-sm sm:text-l mb-2">
                   Beat Name:
                 </label>
                 <input
@@ -841,7 +841,7 @@ function CombinedForm() {
 
               {/* Village Area Name */}
               <div className="mb-4">
-                <label className="text-gray-700 text-sm sm:text-l mb-2">
+                <label className="text-red-900  font-bold text-sm sm:text-l mb-2">
                   Village Area Name:
                 </label>
                 <input
@@ -860,7 +860,7 @@ function CombinedForm() {
               </div>
               {/* Male */}
               <div className="mb-4">
-                <label className="text-gray-700 text-sm sm:text-l mb-2">
+                <label className="text-red-900  font-bold text-sm sm:text-l mb-2">
                   Male:
                 </label>
                 <input
@@ -879,7 +879,7 @@ function CombinedForm() {
             <div className="grid grid-cols-2 gap-4">
               {/* Female */}
               <div className="mb-4">
-                <label className="text-gray-700 text-sm sm:text-l mb-2">
+                <label className="text-red-900  font-bold text-sm sm:text-l mb-2">
                   Female:
                 </label>
                 <input
@@ -896,7 +896,7 @@ function CombinedForm() {
 
               {/* Boy */}
               <div className="mb-4">
-                <label className="text-gray-700 text-sm sm:text-l mb-2">
+                <label className="text-red-900  font-bold text-sm sm:text-l mb-2">
                   Boy:
                 </label>
                 <input
@@ -913,7 +913,7 @@ function CombinedForm() {
 
               {/* Girl */}
               <div className="mb-4">
-                <label className="text-gray-700 text-sm sm:text-l mb-2">
+                <label className="text-red-900  font-bold text-sm sm:text-l mb-2">
                   Girl:
                 </label>
                 <input
@@ -930,7 +930,7 @@ function CombinedForm() {
 
               {/* Age */}
               <div className="mb-4">
-                <label className="text-gray-700 text-sm sm:text-l mb-2">
+                <label className="text-red-900  font-bold text-sm sm:text-l mb-2">
                   Age:
                 </label>
                 <input
@@ -947,7 +947,7 @@ function CombinedForm() {
 
               {/* Victim Count */}
               <div className="mb-4">
-                <label className="text-gray-700 text-sm sm:text-l mb-2">
+                <label className="text-red-900  font-bold text-sm sm:text-l mb-2">
                   Victim Count:
                 </label>
                 <input
@@ -964,7 +964,7 @@ function CombinedForm() {
 
               {/* Accused Count */}
               <div className="mb-4">
-                <label className="text-gray-700 text-sm sm:text-l mb-2">
+                <label className="text-red-900  font-bold text-sm sm:text-l mb-2">
                   Accused Count:
                 </label>
                 <input
@@ -981,7 +981,7 @@ function CombinedForm() {
 
               {/* Arrested Male */}
               <div className="mb-4">
-                <label className="text-gray-700 text-sm sm:text-l mb-2">
+                <label className="text-red-900  font-bold text-sm sm:text-l mb-2">
                   Arrested Male:
                 </label>
                 <input
@@ -998,7 +998,7 @@ function CombinedForm() {
 
               {/* Arrested Female */}
               <div className="mb-4">
-                <label className="text-gray-700 text-sm sm:text-l mb-2">
+                <label className="text-red-900  font-bold text-sm sm:text-l mb-2">
                   Arrested Female:
                 </label>
                 <input
@@ -1018,7 +1018,7 @@ function CombinedForm() {
 
               {/* Arrested Count No. */}
               <div className="mb-4">
-                <label className="text-gray-700 text-sm sm:text-l mb-2">
+                <label className="text-red-900  font-bold text-sm sm:text-l mb-2">
                   Arrested Count No.:
                 </label>
                 <input
@@ -1038,7 +1038,7 @@ function CombinedForm() {
 
               {/* Accused Chargesheeted Count */}
               <div className="mb-4">
-                <label className="text-gray-700 text-sm sm:text-l mb-2">
+                <label className="text-red-900  font-bold text-sm sm:text-l mb-2">
                   Accused Chargesheeted Count:
                 </label>
                 <input
@@ -1058,7 +1058,7 @@ function CombinedForm() {
 
               {/* Conviction Count */}
               <div className="mb-4">
-                <label className="text-gray-700 text-sm sm:text-l mb-2">
+                <label className="text-red-900  font-bold text-sm sm:text-l mb-2">
                   Conviction Count:
                 </label>
                 <input
@@ -1078,7 +1078,7 @@ function CombinedForm() {
 
               {/* FIR ID */}
               <div className="mb-4">
-                <label className="text-gray-700 text-sm sm:text-l mb-2">
+                <label className="text-red-900  font-bold text-sm sm:text-l mb-2">
                   FIR ID:
                 </label>
                 <input
@@ -1095,7 +1095,7 @@ function CombinedForm() {
 
               {/* Unit ID */}
               <div className="mb-4">
-                <label className="text-gray-700 text-sm sm:text-l mb-2">
+                <label className="text-red-900  font-bold text-sm sm:text-l mb-2">
                   Unit ID:
                 </label>
                 <input
@@ -1112,7 +1112,7 @@ function CombinedForm() {
 
               {/* Crime No. */}
               <div className="mb-4">
-                <label className="text-gray-700 text-sm sm:text-l mb-2">
+                <label className="text-red-900  font-bold text-sm sm:text-l mb-2">
                   Crime No.:
                 </label>
                 <input
@@ -1131,7 +1131,7 @@ function CombinedForm() {
             {/* Submit Button */}
             <div className="flex items-center justify-center md:col-span-2">
               <button
-                className="bg-red-900 hover:bg-red-800 text-white font-bold py-2 px-10 rounded focus:outline-none focus:shadow-outline transition-colors duration-300"
+                className="bg-red-950 hover:text-orange-200 text-orange-100 font-bold py-2 px-10 rounded focus:outline-none focus:shadow-outline transition-colors duration-300"
                 type="button"
                 onClick={handleSubmit}
                 disabled={isLoading}
@@ -1153,12 +1153,12 @@ function CombinedForm() {
             />
           </div>
         ) : (
-          <div className="bg-white p-4 sm:p-8">
+          <div className="bg-orange-200 p-4 sm:p-8">
             <h2 className="text-red-900 text-xl sm:text-2xl mb-6 text-center">
               Update Existing Data
             </h2>
             <div className="mb-4">
-              <label className="text-gray-700 text-sm sm:text-l mb-2">
+              <label className="text-red-900  font-bold text-sm sm:text-l mb-2">
                 Search FIR ID:
               </label>
               <input
@@ -1171,7 +1171,7 @@ function CombinedForm() {
             </div>
             <div className="flex justify-end">
               <button
-                className="bg-red-900 hover:bg-red-800 text-white font-bold py-2 px-10 rounded focus:outline-none focus:shadow-outline transition-colors duration-300"
+                className="bg-red-950 hover:text-orange-200 text-orange-100 font-bold py-2 px-10 rounded focus:outline-none focus:shadow-outline transition-colors duration-300"
                 type="button"
                 onClick={handleSearch}
                 disabled={isLoading}
@@ -1187,16 +1187,16 @@ function CombinedForm() {
               </button>
             </div>
             {searchResult !== null && (
-              <div className="mt-8">
+              <div className="mt-8 ">
                 <h2 className="text-gray-700 text-2xl mb-4 text-center">
                   FIR ID: {searchResult.firId}
                 </h2>
                 <div className="mb-4">
-                  <label className="text-gray-700 text-sm sm:text-l mb-2">
+                  <label className="text-red-900  font-bold text-sm sm:text-l mb-2">
                     Select field to update:
                   </label>
                   <select
-                    className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                    className="shadow appearance-none border rounded w-full py-2 px-3 text-red-900  leading-tight focus:outline-none focus:shadow-outline"
                     value={selectedField}
                     onChange={(e) => handleFieldSelect(e.target.value)}
                   >

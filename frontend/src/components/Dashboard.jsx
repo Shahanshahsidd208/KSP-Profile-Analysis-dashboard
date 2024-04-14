@@ -371,7 +371,7 @@ const Dashboard = () => {
               </div>
             </div>
             {/* Render dropdown if the role is DySP */}
-            {data.designation === "DySP" && (
+            {data.designation === "Dy.SP" && (
               <div className="mt-2">
                 <select className="text-gray-900 border border-gray-300 rounded px-1 py-1 w-full bg-orange-100">
                   <option value="" disabled selected>
@@ -594,7 +594,7 @@ const Dashboard = () => {
                 dominantBaseline="middle"
                 className="font-bold text-red-900"
               >
-                Top Four Crime Group cases of this IO
+                Top Three Crime Group cases of this IO
               </text>
               <Legend align="center" verticalAlign="bottom" iconSize={5} />
             </PieChart>
