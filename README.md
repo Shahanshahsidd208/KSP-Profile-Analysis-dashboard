@@ -88,6 +88,37 @@ Our approach involves developing a user-friendly dashboard accessible through tw
 ## <span style="font-size: 120%;">Watch demo video here:</span>
 https://youtu.be/2r89xyq0okE?si=hHKANuyF2MAVvJCW
 
+
+## <span style="font-size: 120%;">Future Work Roadmap</span>
+
+#### 1. **Real-time Notifications:**
+- Introduce a planned feature to notify officers about pending and undetected cases via mobile notifications.
+- Allow users to opt for notifications on their mobile devices through a button in their profile performance analysis dashboard.
+- This enhancement aims to improve responsiveness and ensure timely action on critical cases.
+
+#### 2. Database for All Other Remaining Years:
+- Initiate preprocessing of the database and upload it to MongoDB for each remaining year.
+- Enable users to target specific datasets for analysis by selecting a year from the drop-down menu.
+- Illustrate hierarchical structure within the police force, aiding in performance evaluation and decision-making.
+
+#### 3. Resource Management for Each Station:
+- Develop a system for managing the resources of each police station.
+- Track which resources are allocated to which officer.
+
+#### 4. Performance of Each Unit:
+- Analyze the performance of each unit in all sections of crime.
+- Conduct team performance analysis.
+- Schedule teams for crimes relevant to their expertise.
+
+
+#### 5. Performance Evaluation Framework:
+- Implement a structured method to score officers based on factors such as pending and convicted cases, determining each factor's weightage for the overall score.
+- Provide officers with feedback ranging from outstanding to poor based on their scores, aiding in improvement and recognizing excellence.
+
+This roadmap outlines the planned features and improvements to enhance the functionality and effectiveness of the system.
+
+
+
 ## <span style="font-size: 120%;">That's all peeps</span> 
 
 
