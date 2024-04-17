@@ -107,7 +107,7 @@ https://youtu.be/2r89xyq0okE?si=hHKANuyF2MAVvJCW
 
 #### 4. Performance of Each Unit:
 - Analyze the performance of each unit in all sections of crime.
-- Conduct team performance analysis.
+- Conduct team performance analysis from same unit.
 - Schedule teams for crimes relevant to their expertise.
 
 
