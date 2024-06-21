@@ -119,6 +119,6 @@ https://youtu.be/2r89xyq0okE?si=hHKANuyF2MAVvJCW
 
 
 
-## <span style="font-size: 120%;">That's all peeps</span> 
+## <span style="font-size: 120%;">That's all peeps , please check out other projects and give a star if we deserve</span> 
 
 
