@@ -12,7 +12,7 @@ Our approach involves developing a user-friendly dashboard accessible through tw
 
 ## <span style="font-size: 120%;">What You Need to Run This Code</span>
 
-### Frontend:
+###  For Frontend:
 - axios: ^1.6.8
 - chart.js: ^4.4.2
 - dom-to-image: ^2.6.0
@@ -25,7 +25,7 @@ Our approach involves developing a user-friendly dashboard accessible through tw
 - react-toastify: ^10.0.5
 - recharts: ^2.12.2
 
-### Backend:
+### For Backend:
 - bcryptjs: ^2.4.3
 - cors: ^2.8.5
 - dotenv: ^16.3.1
