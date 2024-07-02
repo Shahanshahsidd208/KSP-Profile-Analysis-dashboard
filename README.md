@@ -10,7 +10,7 @@ Our approach involves developing a user-friendly dashboard accessible through tw
 
 ![image](https://github.com/Shahanshahsidd208/KSP-Profile-Analysis-dashboard/assets/105127757/1054c47f-4ae3-4530-b34d-d01f9b22b259)
 
-## <span style="font-size: 120%;">What You Need to Run This Code</span>
+## <span style="font-size: 120%;">What You Need to Run This Application</span>
 
 ###  For Frontend:
 - axios: ^1.6.8
