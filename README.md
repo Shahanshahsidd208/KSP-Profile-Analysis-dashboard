@@ -53,72 +53,67 @@ Our approach involves developing a user-friendly dashboard accessible through tw
   npm install
   npm run dev
   
-## <span style="font-size: 120%;">Sample for Dashboard Access</span>
+<span style="font-size: 120%;">Sample for Dashboard Access</span>
+Username: ravinaiklambani494@gmail.com
+Password: ravinaiklambani494
 
-1. **Username:** ravinaiklambani494@gmail.com
-   **Password:** ravinaiklambani494
+Username: manjannat1364@gmail.com
+Password: manjannat1364
 
-2. **Username:** manjannat1364@gmail.com
-   **Password:** manjannat1364
-
-
-## <span style="font-size: 120%;">Snapshots of Home Page</span>
-
-![image](https://github.com/Shahanshahsidd208/KSP-Profile-Analysis-dashboard/assets/105127757/81063b03-4757-42d3-91d3-8e2ba8cba9e6)
-![image](https://github.com/Shahanshahsidd208/KSP-Profile-Analysis-dashboard/assets/105127757/25953fc8-58d0-4f9d-afee-9066c48ccb80)
-
-
-## <span style="font-size: 120%;">Personalized dashboard</span> 
-
-![image](https://github.com/Shahanshahsidd208/KSP-Profile-Analysis-dashboard/assets/105127757/00cf4d86-4b57-4505-bf29-03992596bc96)
-![image](https://github.com/Shahanshahsidd208/KSP-Profile-Analysis-dashboard/assets/105127757/9038b8ff-6cb4-4678-a7df-e3af6e1938b1)
-
-## <span style="font-size: 120%;">Search Bar and notification button demo</span> 
-![image](https://github.com/Shahanshahsidd208/KSP-Profile-Analysis-dashboard/assets/105127757/c3c006a3-cdb1-463f-9e90-72cde0342088)
-
-
-## <span style="font-size: 120%;">Language toggling</span> 
-
-![image](https://github.com/Shahanshahsidd208/KSP-Profile-Analysis-dashboard/assets/105127757/0201ac60-af25-4033-a61d-979dc86900e8)
-
-## <span style="font-size: 120%;">User can add new data or update existing data</span> 
-
-![image](https://github.com/Shahanshahsidd208/KSP-Profile-Analysis-dashboard/assets/105127757/68bea228-4256-4faf-961c-cba9b9b35741)
-
-## <span style="font-size: 120%;">Watch demo video here:</span>
-https://youtu.be/2r89xyq0okE?si=hHKANuyF2MAVvJCW
-
-
-## <span style="font-size: 120%;">Future Work Roadmap</span>
-
-#### 1. **Real-time Notifications:**
-- Introduce a planned feature to notify officers about pending and undetected cases via mobile notifications.
-- Allow users to opt for notifications on their mobile devices through a button in their profile performance analysis dashboard.
-- This enhancement aims to improve responsiveness and ensure timely action on critical cases.
-
-#### 2. Database for All Other Remaining Years:
-- Initiate preprocessing of the database and upload it to MongoDB for each remaining year.
-- Enable users to target specific datasets for analysis by selecting a year from the drop-down menu.
-- Illustrate hierarchical structure within the police force, aiding in performance evaluation and decision-making.
-
-#### 3. Resource Management for Each Station:
-- Develop a system for managing the resources of each police station.
-- Track which resources are allocated to which officer.
-
-#### 4. Performance of Each Unit:
-- Analyze the performance of each unit in all sections of crime.
-- Conduct team performance analysis from same unit.
-- Schedule teams for crimes relevant to their expertise.
-
-
-#### 5. Performance Evaluation Framework:
-- Implement a structured method to score officers based on factors such as pending and convicted cases, determining each factor's weightage for the overall score.
-- Provide officers with feedback ranging from outstanding to poor based on their scores, aiding in improvement and recognizing excellence.
+<span style="font-size: 120%;">Snapshots of Home Page</span>
 
 
 
 
+<span style="font-size: 120%;">Personalized Dashboard</span>
 
-## <span style="font-size: 120%;">That's all peeps , please check out other projects and give a star if we deserve</span> 
+
+
+
+<span style="font-size: 120%;">Search Bar and Notification Button Demo</span>
+
+
+<span style="font-size: 120%;">Language Toggling</span>
+
+
+<span style="font-size: 120%;">User Can Add New Data or Update Existing Data</span>
+
+
+<span style="font-size: 120%;">Watch Demo Video Here</span>
+Watch Demo Video
+
+<span style="font-size: 120%;">Future Work Roadmap</span>
+1. Real-time Notifications:
+Introduce a planned feature to notify officers about pending and undetected cases via mobile notifications.
+Allow users to opt for notifications on their mobile devices through a button in their profile performance analysis dashboard.
+This enhancement aims to improve responsiveness and ensure timely action on critical cases.
+2. Database for All Other Remaining Years:
+Initiate preprocessing of the database and upload it to MongoDB for each remaining year.
+Enable users to target specific datasets for analysis by selecting a year from the drop-down menu.
+Illustrate hierarchical structure within the police force, aiding in performance evaluation and decision-making.
+3. Resource Management for Each Station:
+Develop a system for managing the resources of each police station.
+Track which resources are allocated to which officer.
+4. Performance of Each Unit:
+Analyze the performance of each unit in all sections of crime.
+Conduct team performance analysis from the same unit.
+Schedule teams for crimes relevant to their expertise.
+5. Performance Evaluation Framework:
+Implement a structured method to score officers based on factors such as pending and convicted cases, determining each factor's weightage for the overall score.
+Provide officers with feedback ranging from outstanding to poor based on their scores, aiding in improvement and recognizing excellence.
+<span style="font-size: 120%;">Contributing</span>
+Contributions are welcome! Please fork the repository and create a pull request with your changes.
+
+<span style="font-size: 120%;">License</span>
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+<span style="font-size: 120%;">Contact</span>
+For any inquiries or support, please contact:
+
+Shahanshah Siddiqui
+Email
+LinkedIn
+GitHub
+<span style="font-size: 120%;">That's all peeps, please check out other projects and give a star if we deserve</span>
 
 
