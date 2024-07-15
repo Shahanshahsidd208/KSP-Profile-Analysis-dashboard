@@ -1,10 +1,25 @@
-# <span style="font-size: 150%;">Police Perfromance Analysis and  Data & Resource  Management</span>
+# <span style="font-size: 150%;">Police Performance Analysis and Data & Resource Management</span>
 
 Our approach involves developing a user-friendly dashboard accessible through two login options: one for individual police officers to analyze their own performance, while allowing superior officers to assess the performance of any officer. Additionally, the performance of PIs is contingent upon the performance of PSIs under them. Similarly, the performance DySPs depends on the performance of various PIs under them. This maintains the hierarchical structure of the police system.
 - When any police officer logs into the profile analysis system, they can view their performance analysis through various graphical and statistical representations. They can also download their report and opt for real-time notifications via mobile number or email from their dashboard. Additionally, they can search for details of any FIR. The dashboard will also include a performance evaluation system showing the cumulative score of the logged-in police officer along with feedback ranging from outstanding to poor.
 - Another login option is provided for the designated officer responsible for managing data and resources of each police station, such as adding new FIR data, updating existing FIR data, updating user information, and managing resource allocation for each police station.
 
+## Table of Contents
 
+- [Architecture Design](#architecture-design)
+- [What You Need to Run This Application](#what-you-need-to-run-this-application)
+- [How to Run This Code](#how-to-run-this-code)
+- [Sample for Dashboard Access](#sample-for-dashboard-access)
+- [Snapshots of Home Page](#snapshots-of-home-page)
+- [Personalized Dashboard](#personalized-dashboard)
+- [Search Bar and Notification Button Demo](#search-bar-and-notification-button-demo)
+- [Language Toggling](#language-toggling)
+- [User Can Add New Data or Update Existing Data](#user-can-add-new-data-or-update-existing-data)
+- [Watch Demo Video Here](#watch-demo-video-here)
+- [Future Work Roadmap](#future-work-roadmap)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
 
 ## <span style="font-size: 120%;">Architecture Design</span>
 
@@ -116,16 +131,17 @@ https://youtu.be/2r89xyq0okE?si=hHKANuyF2MAVvJCW
 - Implement a structured method to score officers based on factors such as pending and convicted cases, determining each factor's weightage for the overall score.
 - Provide officers with feedback ranging from outstanding to poor based on their scores, aiding in improvement and recognizing excellence.
 
+<span style="font-size: 120%;">Contributing</span>
+Contributions are welcome! Please fork the repository and create a pull request with your changes.
 
+<span style="font-size: 120%;">License</span>
+This project is licensed under the MIT License - see the LICENSE file for details.
 
+<span style="font-size: 120%;">Contact</span>
+For any inquiries or support, please contact:
 
-
-## <span style="font-size: 120%;">That's all peeps , please check out other projects and give a star if we deserve</span> 
-
-
-
-
-create table of contents and also add - [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
-these as well 
+Shahanshah Siddiqui
+Email
+LinkedIn
+GitHub
+<span style="font-size: 120%;">That's all peeps, please check out other projects and give a star if we deserve</span>
