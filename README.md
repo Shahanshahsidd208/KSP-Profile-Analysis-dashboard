@@ -131,17 +131,20 @@ https://youtu.be/2r89xyq0okE?si=hHKANuyF2MAVvJCW
 - Implement a structured method to score officers based on factors such as pending and convicted cases, determining each factor's weightage for the overall score.
 - Provide officers with feedback ranging from outstanding to poor based on their scores, aiding in improvement and recognizing excellence.
 
-<span style="font-size: 120%;">Contributing</span>
+## Contributing
+
 Contributions are welcome! Please fork the repository and create a pull request with your changes.
 
-<span style="font-size: 120%;">License</span>
-This project is licensed under the MIT License - see the LICENSE file for details.
+## License
 
-<span style="font-size: 120%;">Contact</span>
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Contact
+
 For any inquiries or support, please contact:
 
-Shahanshah Siddiqui
-Email
-LinkedIn
-GitHub
-<span style="font-size: 120%;">That's all peeps, please check out other projects and give a star if we deserve</span>
+- **Shahanshah Siddiqui**
+  - [Email](mailto:shahanshahsidd208@gmail.com)
+  - [LinkedIn](https://www.linkedin.com/in/shahanshah-siddiqui-851354304/)
+  - [GitHub](https://github.com/Shahanshahsidd208)
+
