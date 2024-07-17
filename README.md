@@ -18,7 +18,6 @@ Our approach involves developing a user-friendly dashboard accessible through tw
 - [Watch Demo Video Here](#watch-demo-video-here)
 - [Future Work Roadmap](#future-work-roadmap)
 - [Contributing](#contributing)
-- [License](#license)
 - [Contact](#contact)
 
 ## <span style="font-size: 120%;">Architecture Design</span>
@@ -135,9 +134,7 @@ https://youtu.be/2r89xyq0okE?si=hHKANuyF2MAVvJCW
 
 Contributions are welcome! Please fork the repository and create a pull request with your changes.
 
-## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Contact
 
