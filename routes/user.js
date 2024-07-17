@@ -4,6 +4,7 @@ const router = express.Router();
 const { login, register, dashboard, getAllUsers ,search,search2} = require("../controllers/user");
 const authMiddleware = require('../middleware/auth');
 
+//below re routes
 router.post("/login", login);
 router.post("/register", register);
 router.get("/dashboard", authMiddleware, dashboard);
