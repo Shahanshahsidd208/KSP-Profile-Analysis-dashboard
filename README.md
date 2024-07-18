@@ -132,7 +132,7 @@ https://youtu.be/2r89xyq0okE?si=hHKANuyF2MAVvJCW
 
 ## Contributing
 
-Contributions are welcome! Please fork the repository and create a pull request with your changes.
+Contributions are welcome!! Please fork the repository and create a pull request with your changes.
 
 
 
