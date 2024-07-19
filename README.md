@@ -127,7 +127,7 @@ https://youtu.be/2r89xyq0okE?si=hHKANuyF2MAVvJCW
 
 
 #### 5. Performance Evaluation Framework:
-- Implement a structured method to score officers based on factors such as pending and convicted cases, determining each factor's weightage for the overall score.
+- Implement structured method to score officers based on factors such as pending and convicted cases, determining each factor's weightage for the overall score.
 - Provide officers with feedback ranging from outstanding to poor based on their scores, aiding in improvement and recognizing excellence.
 
 ## Contributing
