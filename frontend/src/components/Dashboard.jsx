@@ -43,11 +43,11 @@ const Dashboard = () => {
 
   const [data, setData] = useState({});
   const dashboardRef = useRef(null);
-  const [showNotification, setShowNotification] = useState(false); // State to control notification visibility
+  const [showNotification, setShowNotification] = useState(false); // state to control notification visibility
   const [notificationSliderVisible, setNotificationSliderVisible] =
-    useState(false); // State to control notification slider visibility
-  const [pendingCasesCount, setPendingCasesCount] = useState(0); // State to hold the number of pending cases
-  const userRole = "DySP"; // Example user role, replace it with actual role logic
+    useState(false); // state to control notification slider visibility
+  const [pendingCasesCount, setPendingCasesCount] = useState(0); // state to hold the number of pending cases
+  const userRole = "DySP"; // example user role, replace it with actual role logic
   const [firNo, setFirNo] = useState("");
 
   const [searchResult, setSearchResult] = useState(null);
