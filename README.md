@@ -107,7 +107,7 @@ https://youtu.be/2r89xyq0okE?si=hHKANuyF2MAVvJCW
 ## <span style="font-size: 120%;">Future Work Roadmap</span>
 
 #### 1. **Real-time Notifications:**
-- Introduce a planned feature to notify officers about pending and undetected cases via mobile notifications.
+- Introduce a planned feature to notify officers about pending and undetected cases through mobile notifications.
 - Allow users to opt for notifications on their mobile devices through a button in their profile performance analysis dashboard.
 - This enhancement aims to improve responsiveness and ensure timely action on critical cases.
 
