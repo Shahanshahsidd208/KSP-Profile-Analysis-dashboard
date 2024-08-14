@@ -13,6 +13,7 @@ import DataManagement from './components/DataManagement.jsx';
 import Logout from './components/Logout.jsx';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import { Helmet } from 'react-helmet';  // For managing document head
 
 function App() {
     const [language, setLanguage] = useState('english');
