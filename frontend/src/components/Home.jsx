@@ -65,7 +65,7 @@ export default function Home({ language }) {
     },
     {
       question:
-        "How do I navigate between analysis and resource management pages?",
+        "How can I navigate between analysis and resource management pages?",
       answer:
         "You can navigate seamlessly between analysis and resource management pages for comprehensive insights.",
       thumbsUpCount: 0,
