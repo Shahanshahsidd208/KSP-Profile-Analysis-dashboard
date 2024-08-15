@@ -95,7 +95,7 @@ export default function Home({ language }) {
     },
     {
       question:
-        "What are the key metrics to track in police performance analysis?",
+        "What are the key metrics to track the police performance analysis?",
       answer:
         "Key metrics to track in police performance analysis may include response time, crime rates, clearance rates, and officer productivity.",
       thumbsUpCount: 0,
