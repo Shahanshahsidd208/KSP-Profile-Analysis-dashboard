@@ -448,7 +448,7 @@ const Dashboard = () => {
               className="text-red-100 px-4 py-2 rounded mb-2 hover:text-orange-200"
             >
               <FontAwesomeIcon icon={faSignOutAlt} className="mr-2" />
-              Logout
+              LogouT
             </button>
             <button
               onClick={handleDownload}
