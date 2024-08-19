@@ -139,7 +139,7 @@ export default function Home({ language }) {
   };
 
   //chatbot end
-
+// function to handle different login 
   const handleProfileClick = () => {
     setLoginType("profile");
   };
