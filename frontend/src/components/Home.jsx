@@ -110,7 +110,7 @@ export default function Home({ language }) {
       thumbsDownCount: 0,
     },
   ]);
-
+// function to count likes and dislikes
   // Function to handle toggling feedback
   const handleFeedback = (index, isPositive) => {
     setChatbotQuestions((prevQuestions) => {
