@@ -103,7 +103,7 @@ export default function Home({ language }) {
     },
     {
       question:
-        "How can I ensure data security in police performance analysis?",
+        "How do I ensure data security in police performance analysis?",
       answer:
         "To ensure data security, use encryption methods, implement access controls, and regularly update security protocols to protect sensitive information.",
       thumbsUpCount: 0,
