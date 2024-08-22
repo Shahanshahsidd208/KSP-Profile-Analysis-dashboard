@@ -42,7 +42,7 @@ export default function Home({ language }) {
       thumbsDownCount: 0,
     },
     {
-      question: "How do I choose the performance analysis year?",
+      question: "How can I choose the performance analysis year?",
 
       answer:
         "You can choose the performance analysis year from the dropdown menu.",
