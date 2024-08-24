@@ -9,7 +9,7 @@ const Privacy = ({ language }) => {
         <h2 className="text-3xl font-semibold text-red-900 mb-6">{language === 'english' ? 'Privacy Policy' : 'ಗೌಪ್ಯತೆ ನಿಯಮಗಳು'}</h2>
         <div className="bg-red-900 shadow overflow-hidden sm:rounded-lg">
           <div className="px-4 py-5 sm:px-6">
-            <p className="text-lg text-orange-100">{language === 'english' ? 'Your  privacy is important to us. This Privacy Policy explains how we collect, use, and disclose your personal information.' : 'ನಿಮ್ಮ ಗೌಪ್ಯತೆ ನಮಗೆ ಮುಖ್ಯವಾಗಿದೆ. ಈ ಗೌಪ್ಯತೆ ನಿಯಮಗಳು ನಿಮ್ಮ ವೈಯಕ್ತಿಕ ಮಾಹಿತಿಯನ್ನು ನಾವು ಹೇಗೆ ಸಂಗ್ರಹಿಸುವುದು, ಬಳಸುವುದು ಮತ್ತು ಬಿಡುಗಡೆ ಮಾಡುವುದನ್ನು ವಿವರಿಸುತ್ತದೆ.'}</p>
+            <p className="text-lg text-orange-100">{language === 'english' ? 'Your  privacy is important to us. This Privacy Policy explains how we collect, use, and disclose your personal information or data.' : 'ನಿಮ್ಮ ಗೌಪ್ಯತೆ ನಮಗೆ ಮುಖ್ಯವಾಗಿದೆ. ಈ ಗೌಪ್ಯತೆ ನಿಯಮಗಳು ನಿಮ್ಮ ವೈಯಕ್ತಿಕ ಮಾಹಿತಿಯನ್ನು ನಾವು ಹೇಗೆ ಸಂಗ್ರಹಿಸುವುದು, ಬಳಸುವುದು ಮತ್ತು ಬಿಡುಗಡೆ ಮಾಡುವುದನ್ನು ವಿವರಿಸುತ್ತದೆ.'}</p>
           </div>
           <div className="border-t border-gray-200">
             <dl className="px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6 bg-white">
