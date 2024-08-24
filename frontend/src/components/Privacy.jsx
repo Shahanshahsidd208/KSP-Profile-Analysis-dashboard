@@ -15,7 +15,7 @@ const Privacy = ({ language }) => {
             <dl className="px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6 bg-white">
               <dt className="text-sm font-medium text-red-800">{language === 'english' ? 'Information We Collect' : 'ನಾವು ಸಂಗ್ರಹಿಸುವ ಮಾಹಿತಿ'}</dt>
               <dd className="mt-1 text-sm text-gray-900 sm:col-span-2">
-                {language === 'english' ? 'We collect information you provide directly to us, such as your name and email address when you contact us.' : 'ನೀವು ನಮಗೆ ಸಂಪರ್ಕಿಸುವಾಗ ನೀವು ನಮಗೆ ನೀಡುವ ಹೆಸರು ಮತ್ತು ಇಮೇಲ್ ವಿಳಾಸ ಹೀಗೆ ನಾವು ನಿಮಗೆ ಸಂಬಂಧಿಸಿದ ಮಾಹಿತಿಯನ್ನು ಸಂಗ್ರಹಿಸುತ್ತೇವೆ.'}
+                {language === 'english' ? 'We only collect information you provide directly to us, such as your name and email address when you contact us.' : 'ನೀವು ನಮಗೆ ಸಂಪರ್ಕಿಸುವಾಗ ನೀವು ನಮಗೆ ನೀಡುವ ಹೆಸರು ಮತ್ತು ಇಮೇಲ್ ವಿಳಾಸ ಹೀಗೆ ನಾವು ನಿಮಗೆ ಸಂಬಂಧಿಸಿದ ಮಾಹಿತಿಯನ್ನು ಸಂಗ್ರಹಿಸುತ್ತೇವೆ.'}
               </dd>
             </dl>
             <dl className="bg-gray-300 px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
