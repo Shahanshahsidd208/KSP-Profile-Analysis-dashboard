@@ -401,7 +401,7 @@ const Dashboard = () => {
               />
             </div>
 
-            {/* change this */}
+            {/* change this / search result */}
             {searchResult && (
                             <div className={` absolute  bottom-28 left-0 border-4 border-red-900 rounded   shadow-2xl shadow-red-600/50 ${searchResult> 0 ? 'translate-x-0' : 'translate-x-1/12'}`} style={{ width: '76%', height: '19%', backgroundColor: '#450a0a',zIndex: '55' }}>
                                 <div className="flex items-center justify-between bg-red-950 text-red-950 px-3 py-1 ">
