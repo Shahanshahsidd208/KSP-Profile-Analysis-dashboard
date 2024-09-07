@@ -23,6 +23,7 @@ export default function Contact({ language }) {
                   {language === 'english' ? 'Director-General & Inspector General of Police, Karnataka State Police Headquarters, No.2, Nrupathunga Road, Bangalore 560-001 Karnataka' : 'ಪೊಲೀಸ್ ಇನ್ಸ್ಪೆಕ್ಟರ್ ಜನರಲ್ & ಡೈರೆಕ್ಟರ್-ಜನರಲ್, ಕರ್ನಾಟಕ ರಾಜ್ಯ ಪೊಲೀಸ್ ಮುಖ್ಯಾಲಯ, ನಾಂಬರ್ 2, ನೃಪತುಂಗ ರಸ್ತೆ, ಬೆಂಗಳೂರು 560-001 ಕರ್ನಾಟಕ'}
                 </dd>
               </div>
+{/* these data are official */}
               <div className="bg-gray-300 px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
                 <dt className="text-sm font-medium text-red-800">{language === 'english' ? 'Phone' : 'ಫೋನ್'}</dt>
                 <dd className="mt-1 text-sm text-gray-900 sm:col-span-2">080-22942111 , 080-22942777, 080-22215911(F)</dd>
