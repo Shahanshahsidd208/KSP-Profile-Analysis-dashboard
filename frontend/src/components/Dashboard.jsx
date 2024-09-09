@@ -288,7 +288,7 @@ const Dashboard = () => {
     { name: "Others", value: parseInt(data.others) }, // You can keep this as it is if it's a constant value
   ];
 
-  // Dummy data for the dropdown options
+  // Dummy data for the dropdown options just for checking
   const piOptions = ["PI 1", "PI 2", "PI 3"];
 
   // Colors for the pie chart
