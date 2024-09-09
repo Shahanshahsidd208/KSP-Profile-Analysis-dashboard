@@ -198,7 +198,7 @@ const Dashboard = () => {
     district: data.districtName,
     email1: data.email,
   };
-
+// use this for debugging
   // console.log("User Info:", userInfo.email1);
 
 
