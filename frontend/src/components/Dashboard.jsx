@@ -392,7 +392,8 @@ const Dashboard = () => {
                 value={firNo}
                 onChange={(e) => setFirNo(e.target.value)}
                 className="border border-gray-700 bg-orange-100 rounded-md py-2 px-1 focus:outline-none focus:border-red-500"
-                placeholder="Enter FIR ID"
+
+                 placeholder="Enter FIR ID"
               />
               <FontAwesomeIcon
                 icon={faSearch}
