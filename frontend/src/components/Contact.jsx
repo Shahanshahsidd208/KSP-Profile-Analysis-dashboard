@@ -36,7 +36,7 @@ export default function Contact({ language }) {
           </div>
         </div>
         <div className="mt-8">
-{/*        paste here */}
+   <p className="text-lg text-black">
             {language === 'english' ? 'For inquiries, feedback, or assistance, please feel free to contact us using the information provided above. We are here to help out !' : 'ಪ್ರಶ್ನೆಗಳು, ಪ್ರತಿಕ್ರಿಯೆಗಳು, ಅಥವಾ ಸಹಾಯಕ್ಕಾಗಿ, ಮೇಲೆ ನೀಡಿದ ಮಾಹಿತಿಯನ್ನು ಬಳಸಿ ನಮ್ಮನ್ನು ಸಂಪರ್ಕಿಸಿ. ನಾವು ನಿಮಗೆ ಸಹಾಯ ಮಾಡಲು ಇಲ್ಲಿದ್ದೇವೆ!'}
           </p>
         </div>
