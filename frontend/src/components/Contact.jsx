@@ -30,7 +30,7 @@ export default function Contact({ language }) {
               </div>
               <div className="bg-white px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
                 <dt className="text-sm font-medium text-red-800">{language === 'english' ? 'Email' : 'ಇಮೇಲ್'}</dt>
-{/*                 these should be removed */}
+<dd className="mt-1 text-sm text-gray-900 sm:col-span-2">police_ksp@gov.in</dd>
               </div>
             </dl>
           </div>
