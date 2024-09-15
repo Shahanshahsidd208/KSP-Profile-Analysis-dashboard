@@ -16,7 +16,7 @@ import { toast } from "react-toastify";
 export default function Home({ language }) {
   const [loginType, setLoginType] = useState("profile");
   const [username, setUsername] = useState("");
-  const [password, setPassword] = useState("");
+ // paste here
   const [selectedYear, setSelectedYear] = useState("2023"); // default selected year
   const [isLoading, setIsLoading] = useState(false); // state for loading state of the login button
 
