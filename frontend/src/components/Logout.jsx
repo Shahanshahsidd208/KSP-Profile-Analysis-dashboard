@@ -20,7 +20,7 @@ const Logout = () => {
   return (
     <div className='logout-main'>
     <h1>Logout Successful!</h1>
-{/*     paste here */}
+        <p>You will be redirected to the landing page in 3 seconds...</p>
   </div>
   )
 }
