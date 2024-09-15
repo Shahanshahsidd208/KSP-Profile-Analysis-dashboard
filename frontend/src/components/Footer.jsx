@@ -53,7 +53,7 @@ export default function Footer({ language }) {
                                         target="_blank"
                                         rel="noreferrer"
                                     >
-                                        {language === 'english' ? 'WhatsApp' : 'ವಾಟ್‌ಸ್‌ಆಪ್'}
+{/*                                      paste here */}
                                     </a>
                                 </li>
                             </ul>
