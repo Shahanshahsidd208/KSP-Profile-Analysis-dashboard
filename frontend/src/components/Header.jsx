@@ -21,7 +21,7 @@ function Header({ language , toggleLanguage}) {
                     </div>
 
                   {/* Language Toggle Button */}
-{/* paste here  */}
+<div className="flex items-center">
     <button
         className={`relative mx-4 bg-gray-800 font-bold w-36 h-8 rounded-full focus:outline-none flex items-center justify-center text-orange-100 transition-colors duration-300 ${language === 'english' ? 'bg-red-800' : 'bg-red-950'}`}
         onClick={toggleLanguage}
