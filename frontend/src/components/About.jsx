@@ -12,7 +12,7 @@ export default function About({ language }) {
             'Welcome to our platform! We are a dedicated team passionate about leveraging technology to enhance policing operations and improve public safety. Our mission is to provide law enforcement professionals with powerful tools and resources to analyze performance, manage data, and optimize resource allocation.' :
             'ನಮ್ಮ  ತಂಡಕ್ಕೆ  ಸ್ವಾಗತ!  ನಾವು  ಪೊಲೀಸಿಂಗ್  ಕಾರ್ಯಾಚರಣೆಯನ್ನು  ಮೆಚ್ಚಿಕೊಳ್ಳುವಲ್ಲಿ  ತಂತ್ರಾಂಶವನ್ನು  ಬಳಸುವುದರ  ಬಗ್ಗೆ  ಉತ್ಸಾಹದಿಂದ  ಕಾರ್ಯನಿರ್ವಹಣೆಯನ್ನು  ಮೆಚ್ಚಿಕೊಳ್ಳುವವರಾಗಿದ್ದೇವೆ  ಮತ್ತು ಸಾರ್ವಜನಿಕ ಸುರಕ್ಷತೆಯನ್ನು ಸುಧಾರಿಸಲು ಬಳಸುವುದರ ಬಗ್ಗೆ. ನಮ್ಮ ಧ್ಯೇಯವು ಕಾನೂನು ಸೇವಕರಿಗೆ ಪ್ರದರ್ಶನ ವಿಶ್ಲೇಷಣೆ, ಡೇಟಾ ನಿರ್ವಹಣೆ ಮತ್ತು ಸಂಪನ್ಮೂಲ ನಿಯೋಜನೆಯನ್ನು ವಿಶ್ಲೇಷಿಸಲು ಶಕ್ತಿಶಾಲಿ ಉಪಕರಣಗಳು ಮತ್ತು ಸಾಧನಗಳನ್ನು ಒದಗಿಸುವುದು.'}
         </p>
-        <p className="text-lg text-gray-700 leading-relaxed mb-6">
+{/*        pastr here */}
           {language === 'english' ?
             'Our user-friendly dashboard offers comprehensive insights and visualizations, empowering officers at all levels to make informed decisions and drive positive change within their communities. Whether you\'re a frontline officer seeking to analyze your performance or an administrator tasked with data management, our platform has you covered.' :
             'ನಮ್ಮ ಬಳಕೆದಾರ ಸ್ವರೂಪಿ ಡ್ಯಾಶ್‌ಬೋರ್ಡ್‌ನಲ್ಲಿ ವಿಶ್ವಸ್ತತೆಯ ಹೊಂದಿಕೊಳ್ಳುವ ನಿರ್ವಹಣೆಗಳು ಮತ್ತು ವಿಜುಯಗಳ ಸಾರ್ವಜನಿಕಗೊಳಿಸುವುದರ ಮೂಲಕ, ನಿಮ್ಮ ಸಮುದಾಯದಲ್ಲಿ ನಿರ್ಣಯಗಳನ್ನು ಕ್ರಮಬದ್ಧವಾಗಿ ತೆರೆಯುವುದಕ್ಕೂ ಅಧಿಕಾರಿಗಳನ್ನು ಪ್ರೇರಿತಗೊಳಿಸುವ ಅಧಿಕಾರವಿದೆ. ನೀವು ನಿಮ್ಮ ಪ್ರದರ್ಶನವನ್ನು ವಿಶ್ಲೇಷಿಸಲು ಬಯಸುವ ಮುಂಚೆ ಸಾಮರ್ಥ್ಯದ ಮುಖ್ಯಸ್ಥರೂ, ಡೇಟಾ ನಿರ್ವಹಣೆಯನ್ನು ನಿರ್ವಹಿಸುವವರೂ ಆಗಿರಿದ್ದರೂ, ನಮ್ಮ ಪ್ಲಾಟ್‌ಫಾರಿಂಗ್‌ನಲ್ಲಿ ನೀವು ಕವರ್ ಮಾಡಲ್ಪಡುತ್ತಿದ್ದೀರಿ.'}
