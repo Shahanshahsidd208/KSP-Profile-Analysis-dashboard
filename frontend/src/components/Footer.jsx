@@ -96,7 +96,7 @@ export default function Footer({ language }) {
                             rel="noreferrer"
                         >
                             <i className="fab fa-whatsapp"></i>
-                            <span className="sr-only">WhatsApp</span>
+{/*                 paste here */}
                         </a>
                         {/* Gmail icon */}
                         <a
