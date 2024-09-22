@@ -22,7 +22,7 @@ export default function About({ language }) {
             'We are committed to maintaining the hierarchical structure of the police system, ensuring that each role, from Police Inspectors to Assistant Commissioners of Police, has access to the tools they need to succeed. With a focus on efficiency, accuracy, and transparency, we strive to support law enforcement agencies in their mission to serve and protect.' :
             'ನಾವು ಪೊಲೀಸ್ ವ್ಯವಸ್ಥೆಯ ಹಂಚಿಕೆಯ ಘಟನೆಯನ್ನು ಉಳಿಸಲು ಬದ್ದರಿದ್ದೇವೆ, ಪೊಲೀಸ್ ಇನ್ಸ್ಪೆಕ್ಟರ್‌ಗಳಿಂದ ಸಹಾಯಕ ಕಮಿಷನರ್‌ಗಳವರೆಗೆ ಪ್ರತಿ ಪಾತ್ರವು ಅವರು ಯಶಸ್ವಿಯಾಗಲು ಅವರಿಗೆ ಬೇಕಾದ ಉಪಕರಣಗಳಿಗೆ ಪ್ರವೇಶವನ್ನು ಖಂಡಿಸುವುದನ್ನು ಖಂಡಿಸುತ್ತೇವೆ. ದೃಢತೆ, ಸಾಟಿ, ಮತ್ತು ಪಾರದರ್ಶಕತೆಯ ಮೇಲೆ ಗಮನವಿಟ್ಟು, ನಾವು ಪೊಲೀಸ್ ವ್ಯವಸ್ಥೆಗಳನ್ನು ತಮ್ಮ ಕಾರ್ಯವನ್ನು ಸಾರ್ವಜನಿಕ ಮತ್ತು ರಕ್ಷಣೆ ಮಾಡುವ ಮಹತ್ವದ ಕಾರ್ಯದಲ್ಲಿ ಬೆಂಬಲಿಸಲು ಪ್ರಯತ್ನಿಸುತ್ತೇವೆ.'}
         </p>
-        <p className="text-lg text-gray-700 leading-relaxed">
+{/*       paste here */}
           {language === 'english' ?
             'Thank you for choosing our platform. We look forward to partnering with you to create safer and more secure communities.' :
             'ನಮ್ಮ ಪ್ಲಾಟ್‌ಫಾರಿಂಗ್ ಆಯ್ಕೆ ಮಾಡಿದಿರಿದ್ದರೆ ಧನ್ಯವಾದಗಳು. ನಾವು ನಿಮ್ಮೊಡನೆ ಸುರಕ್ಷಿತ ಮತ್ತು ಸ್ಥಿರ ಸಮುದಾಯಗಳನ್ನು ರಚಿಸಲು ಸಂತ್ರಿಸುತ್ತೇವೆ.'
