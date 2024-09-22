@@ -69,7 +69,7 @@ const Dashboard = () => {
     
   }, [token, searchResult]); // This effect runs only once after the initial render
 
-  //this result here
+
   // Log the listResult whenever it changes
   useEffect(() => {
     console.log("List Result:", listResult);
