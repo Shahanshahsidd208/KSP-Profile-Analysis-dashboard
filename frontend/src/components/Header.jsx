@@ -26,7 +26,7 @@ function Header({ language , toggleLanguage}) {
         className={`relative mx-4 bg-gray-800 font-bold w-36 h-8 rounded-full focus:outline-none flex items-center justify-center text-orange-100 transition-colors duration-300 ${language === 'english' ? 'bg-red-800' : 'bg-red-950'}`}
         onClick={toggleLanguage}
     >
-{/*         paste here */}
+<span className="hidden sm:inline">{language === 'english' ? 'English' : 'ಕನ್ನಡ'}</span>
         <span className="sm:hidden">{language === 'english' ? 'EN' : 'ಕನ್ನಡ'}</span>
         <div className={`absolute left-0 w-8 h-8 rounded-full shadow-md transform transition-transform duration-1500 ${language === 'english' ? 'bg-red-950 translate-x-0' : 'bg-red-800 translate-x-28'}`}></div>
     </button>
