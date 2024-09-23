@@ -36,7 +36,7 @@ export default function Footer({ language }) {
                         <div>
                             <h2 className="mb-6 text-m font-semibold text-white uppercase">{language === 'english' ? 'Contact Developer' : 'ಡೆವಲಪರ್ ಸಂಪರ್ಕಿಸಿ'}</h2>
                             <ul className="text-orange-100 font-medium">
-                                <li className="mb-4">
+{/*                             paste here */}
                                     <a
                                         href="mailto:your.shahanshahsidd208@gmail.com"
                                         className="hover:underline"
