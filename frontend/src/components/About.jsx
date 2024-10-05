@@ -7,11 +7,7 @@ export default function About({ language }) {
         <h2 className="text-3xl font-semibold text-red-900 mb-6">
           {language === 'english' ? 'About Us' : 'ನಮ್ಮ ಬಗ್ಗೆ'}
         </h2>
-        <p className="text-lg text-gray-700 leading-relaxed mb-6">
-          {language === 'english' ?
-            'Welcome to our platform! We are a dedicated team passionate about leveraging technology to enhance policing operations and improve public safety. Our mission is to provide law enforcement professionals with powerful tools and resources to analyze performance, manage data, and optimize resource allocation.' :
-            'ನಮ್ಮ  ತಂಡಕ್ಕೆ  ಸ್ವಾಗತ!  ನಾವು  ಪೊಲೀಸಿಂಗ್  ಕಾರ್ಯಾಚರಣೆಯನ್ನು  ಮೆಚ್ಚಿಕೊಳ್ಳುವಲ್ಲಿ  ತಂತ್ರಾಂಶವನ್ನು  ಬಳಸುವುದರ  ಬಗ್ಗೆ  ಉತ್ಸಾಹದಿಂದ  ಕಾರ್ಯನಿರ್ವಹಣೆಯನ್ನು  ಮೆಚ್ಚಿಕೊಳ್ಳುವವರಾಗಿದ್ದೇವೆ  ಮತ್ತು ಸಾರ್ವಜನಿಕ ಸುರಕ್ಷತೆಯನ್ನು ಸುಧಾರಿಸಲು ಬಳಸುವುದರ ಬಗ್ಗೆ. ನಮ್ಮ ಧ್ಯೇಯವು ಕಾನೂನು ಸೇವಕರಿಗೆ ಪ್ರದರ್ಶನ ವಿಶ್ಲೇಷಣೆ, ಡೇಟಾ ನಿರ್ವಹಣೆ ಮತ್ತು ಸಂಪನ್ಮೂಲ ನಿಯೋಜನೆಯನ್ನು ವಿಶ್ಲೇಷಿಸಲು ಶಕ್ತಿಶಾಲಿ ಉಪಕರಣಗಳು ಮತ್ತು ಸಾಧನಗಳನ್ನು ಒದಗಿಸುವುದು.'}
-        </p>
+     paste here
  <p className="text-lg text-gray-700 leading-relaxed mb-6">
           {language === 'english' ?
             'Our user-friendly dashboard offers comprehensive insights and visualizations, empowering officers at all levels to make informed decisions and drive positive change within their communities. Whether you\'re a frontline officer seeking to analyze your performance or an administrator tasked with data management, our platform has you covered.' :
