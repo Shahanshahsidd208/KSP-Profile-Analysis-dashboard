@@ -9,9 +9,7 @@ export default function Contact({ language }) {
         </h2>
         <div className="bg-red-900 shadow overflow-hidden sm:rounded-lg">
           <div className="px-4 py-5 sm:px-6">
-            <h3 className="text-lg font-semibold leading-6 text-orange-100">
-              {language === 'english' ? 'Karnataka State Police Headquarters' : 'ಕರ್ನಾಟಕ ರಾಜ್ಯ ಪೊಲೀಸ್ ಮುಖ್ಯಾಲಯ'}
-            </h3>
+         paste here
           </div>
           <div className="border-t border-gray-200">
             <dl>
