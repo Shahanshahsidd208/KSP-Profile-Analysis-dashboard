@@ -25,7 +25,7 @@ export default function Home({ language }) {
   const [token, setToken] = useState(
     JSON.parse(localStorage.getItem("auth")) || ""
   );
- paste here
+  const navigate = useNavigate();
 
   //chatbot
   const [isChatbotOpen, setIsChatbotOpen] = useState(false); // State for chatbot visibility
