@@ -4,7 +4,9 @@ export default function Contact({ language }) {
   return (
     <div className="bg-orange-100 py-12 px-4 sm:px-6 lg:px-8">
       <div className="max-w-4xl mx-auto">
-  paste here
+      <h2 className="text-3xl font-semibold text-red-900 mb-6">
+          {language === 'english' ? 'Contact Us' : 'ನಮ್ಮನ್ನು ಸಂಪರ್ಕಿಸಿ'}
+        </h2>
         <div className="bg-red-900 shadow overflow-hidden sm:rounded-lg">
           <div className="px-4 py-5 sm:px-6">
             <h3 className="text-lg font-semibold leading-6 text-orange-100">
