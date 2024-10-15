@@ -2,7 +2,7 @@
 
 Our approach involves developing a user-friendly dashboard accessible through two login options: one for individual police officers which is used to analyze their own performance, while allowing superior officers to assess the performance of any officer. Additionally, the performance of PIs is contingent upon the performance of PSIs under them. Similarly, the performance DySPs depends on the performance of various PIs under them. This maintains the hierarchical structure of the police system.
 - When any police officer logs into the profile analysis system, they can view their performance analysis through various graphical and statistical representations. They can also download their report and opt for real-time notifications through mobile number or email from their dashboard. Additionally, they can search for details of any FIR. The dashboard will also include a performance evaluation system showing the cumulative score of the logged-in police officer along with feedback ranging from outstanding to poor.
-- Another login option is provided for the designated officer responsible for managing data and resources of each police station, such as adding new FIR data, updating existing FIR data, updating user information, and managing resource allocation for each police station.
+- Another login option is provided for the designated officer responsible for managing data and resources of each police station, such as adding new FIR data, updating existing FIR data, updating user information, and managing resource allocation for each police station..
 ## Table of Contents
 
 - [Architecture Design](#architecture-design)
