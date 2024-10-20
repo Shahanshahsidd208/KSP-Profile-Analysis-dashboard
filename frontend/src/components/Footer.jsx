@@ -22,9 +22,7 @@ export default function Footer({ language }) {
                             <h2 className="mb-6 text-mm font-semibold text-white uppercase">{language === 'english' ? 'Resources' : 'ಸಂಪನ್ಮೂಲಗಳು'}</h2>
                             <ul className="text-orange-100 font-medium">
                                 <li className="mb-4">
-                                    <Link to="/" className="hover:underline">
-                                        {language === 'english' ? 'Home' : 'ಮುಖಪುಟ'}
-                                    </Link>
+                                   paste here
                                 </li>
                                 <li>
                                     <Link to="/about" className="hover:underline">
